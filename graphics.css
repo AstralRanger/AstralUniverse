@@ -8,7 +8,7 @@ body {
 .main-container {
 	display:flex;
 	flex-direction: row;
-	justify-content: align-left;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -19,6 +19,7 @@ body {
 	height: 100vh;
 	width: 28vw;
 	background-size:28vw 100vh;	
+	position: relative;
 }
 
 .left img {
@@ -27,3 +28,53 @@ body {
 	margin: 25vh auto;
 }
 
+.bolt {
+	display: none;
+	position: absolute;
+	left: 5.5vw;
+	top: 0;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	background-image: url("steel.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 100vh;
+	width: 36vw;
+	background-size: 36vw 100vh;
+}
+
+.matter {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-image: url("space-icon.jpg");
+	background-size: 36vw 10vh;
+	height: 10vh;
+	width: 36vw;
+}
+
+.matter h1 {
+	font-family: verdana;
+	color: silver;
+	max-height: 100%;
+	max-length: 100%;
+}
+
+.object {
+	background-image: url("steel-icon.jpg");
+	background-size: 36vw 10vh;
+	height: 10vh;
+	width: 36vw;
+}
+
+.right {
+	background-color: black;
+	height: 100vh;
+	width: 36vw;
+}

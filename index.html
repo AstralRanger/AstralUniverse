@@ -4,12 +4,22 @@
 <link rel="stylesheet" type="text/css" href="graphics.css">
 </head>
 <body>
+<script src = "programming.js"></script>
 <div class = "main-container">
 	<div class = "left">	
-		<img src = "energy.png">
+		<img src = "energy.png" onclick = "showBolt()">
+		<div class = "bolt" id = "bolt">
+			<img src = "lightningbolt.png">
+		</div>
 	</div>
-	<div class = "right>
+	<div class = "center">
+		<div class = "matter">
+			<h1 id ="matter-amount">Matter: 0</h1>
+		</div>
+		<div class = "object">
+		</div>
 	</div>
+	<div class = "right"></div>
 </div>
 
 </body>
