@@ -66,6 +66,19 @@ body {
 	max-length: 100%;
 }
 
+.object h1 {
+	font-family: verdana;
+	color: #00008B;
+	max-height: 100%;
+	max-length: 100%;
+}
+
+h1 {
+	font-family: verdana;
+	color: #00008B;
+}
+
+
 .object {
 	background-image: url("steel-icon.jpg");
 	background-size: 36vw 10vh;
