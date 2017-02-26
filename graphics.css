@@ -46,6 +46,7 @@ body {
 	height: 100vh;
 	width: 36vw;
 	background-size: 36vw 100vh;
+	overflow: scroll;
 }
 
 .matter {
@@ -56,6 +57,7 @@ body {
 	background-image: url("space-icon.jpg");
 	background-size: 36vw 10vh;
 	height: 10vh;
+	min-height: 10vh;
 	width: 36vw;
 }
 
