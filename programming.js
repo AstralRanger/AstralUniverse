@@ -22,7 +22,7 @@ var rates = [0.5, 2, 8, 60, 400, 4000,
 
 var object_types = ["String", "Neutrino", "Quark", "Proton", "Alpha", "Atom",
 				    "Glucose", "Virus", "Mitochondria", "Leukocyte", "Amoeba",
-					"Ant", "Bird", "Human", "Tree", "Bronto",
+					"Marble", "Bird", "Human", "Tree", "Bronto",
 					"Jet", "NeutronStar", "Ceres", "Pluto", "Moon",
 					"Mars", "Earth", "Jupiter", "Sun", "Polaris",
 					"Nebula", "Galaxy", "Cluster", "Supercluster", "Universe"]; // Names of the objects
